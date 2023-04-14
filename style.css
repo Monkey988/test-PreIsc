@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('@font-face/font.eot'); /* IE9 Compat Modes */
+  src: url('@font-face/font.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('@font-face/font.woff2') format('woff2'), /* Super Modern Browsers */
+       url('@font-face/font.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+body {
+background-image: url(background.jpg);
+background-size: cover;
+height: 100%;
+font-family: 'MyWebFont', Fallback, Gilroy-Medium;
+}
+
+.sfondo{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 55%;
+  padding: 5%;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 1%;
+}
+#logo{
+  margin-left: 22%;
+  margin-bottom: -7px;
+  margin-top: 4px;
+}
+img{
+  width: 30%;
+  height: 20%;
+}
+h2{
+  color: #00ff0a;
+  text-align: center;
+  margin-bottom: -12px;
+}
+strong{
+  font-size: 20px;
+}
+.BUT{
+  background-color: #1eea26;
+  height: 25px;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.b{
+  position: relative;
+  top: 8.5%
+}
+.gino .fede .mike{
+  color: white;
+  text align-self: flex-start;
+}
+.carica1{
+  background-color: #f2b443;
+  width: 35%;
+  height: 25px;
+  border-radius: 6px;
+}
+
+.carica2{
+  background-color: #1fbf26;
+  width: 55%;
+  height: 25px;
+  border-radius: 6px;
+}
+
+.carica3{
+  background-color: #d85252;
+  width: 20%;
+  height: 25px;
+  border-radius: 6px;
+}
